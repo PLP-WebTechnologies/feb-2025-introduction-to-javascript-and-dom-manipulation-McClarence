@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS DOM Basics</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1 id="main-title">Welcome to JavaScript DOM Manipulation</h1>
+    </header>
+
+    <section>
+        <p id="description">Click the buttons below to see JavaScript in action!</p>
+
+        <button onclick="changeText()">Change Text</button><!-- change title text-->
+        <button onclick="changeStyle()">Change Style</button>
+        <button onclick="addItem()">Add Item</button>
+        <button onclick="removeItem()">Remove Item</button>
+    </section>
+
+    <ul id="item-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+
+    <footer>
+        <p>&copy; 2025 DOM Basics</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
